@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'nc_theme.dart';
 import '../features/home/home_screen.dart';
+import '../features/map/map_screen.dart';
 import '../features/search/search_screen.dart';
 import '../features/progress/progress_screen.dart';
 import '../features/settings/settings_screen.dart';
@@ -31,6 +32,7 @@ class _RootNavState extends State<_RootNav> {
 
   static const _screens = [
     HomeScreen(),
+    MapScreen(),
     SearchScreen(),
     ProgressScreen(),
     SettingsScreen(),
@@ -38,17 +40,19 @@ class _RootNavState extends State<_RootNav> {
 
   static const _icons = [
     Icons.location_on_outlined,
+    Icons.map_outlined,
     Icons.search,
     Icons.checklist,
     Icons.tune,
   ];
   static const _selectedIcons = [
     Icons.location_on,
+    Icons.map,
     Icons.search,
     Icons.checklist,
     Icons.tune,
   ];
-  static const _labels = ['HOME', 'SEARCH', 'PROGRESS', 'SETTINGS'];
+  static const _labels = ['HOME', 'MAP', 'SEARCH', 'PROGRESS', 'SETTINGS'];
 
   @override
   Widget build(BuildContext context) {

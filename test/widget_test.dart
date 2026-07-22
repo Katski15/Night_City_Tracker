@@ -23,6 +23,7 @@ void main() {
 
     expect(find.byType(NavigationBar), findsOneWidget);
     expect(find.text('HOME'), findsOneWidget);
+    expect(find.text('MAP'), findsOneWidget);
     expect(find.text('SEARCH'), findsOneWidget);
     expect(find.text('PROGRESS'), findsOneWidget);
     expect(find.text('SETTINGS'), findsOneWidget);
