@@ -24,7 +24,8 @@ class _MapScreenState extends State<MapScreen> {
   void _fitToWidth(double viewportWidth) {
     final scale = viewportWidth / mapCanvasSize.width;
     _fitScale = scale;
-    _transformController.value = Matrix4.identity()..scale(scale);
+    _transformController.value = Matrix4.identity()
+      ..scaleByDouble(scale, scale, scale, 1);
   }
 
   @override
@@ -116,13 +117,19 @@ class _MapScreenState extends State<MapScreen> {
                               child: Opacity(
                                 opacity: found ? 0.35 : 1,
                                 child: Container(
-                                  width: 22,
-                                  height: 22,
+                                  width: 24,
+                                  height: 24,
                                   decoration: BoxDecoration(
                                     color: color,
                                     shape: BoxShape.circle,
                                     border: Border.all(
-                                        color: Colors.black, width: 2),
+                                        color: Colors.white, width: 2.5),
+                                    boxShadow: const [
+                                      BoxShadow(
+                                        color: Colors.black87,
+                                        blurRadius: 4,
+                                      ),
+                                    ],
                                   ),
                                 ),
                               ),
