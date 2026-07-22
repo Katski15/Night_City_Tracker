@@ -1,0 +1,1141 @@
+[
+  {
+    "id": "egg-001",
+    "name": "Developer Room",
+    "category": "Secret Room",
+    "district": "Watson",
+    "landmark": "Kabuki Market, inside the Prebab City shop",
+    "description": "Head down the staircase inside the shop to a garage-style door. Enter the code 605185 on the keypad to get in. Sitting on the couch inside triggers a slideshow of the game's developers while Johnny plays guitar.",
+    "requirements": "Keypad code: 605185",
+    "tags": [
+      "secret room",
+      "easter egg",
+      "watson",
+      "kabuki"
+    ]
+  },
+  {
+    "id": "egg-002",
+    "name": "Blade Runner Rooftop Scene",
+    "category": "Easter Egg",
+    "district": "Vista Del Rey",
+    "landmark": "Rooftop of the Advocet Hotel",
+    "description": "A rooftop scene referencing the ending of Blade Runner, with an injured man holding a dove.",
+    "requirements": null,
+    "tags": [
+      "easter egg",
+      "vista del rey",
+      "reference"
+    ]
+  },
+  {
+    "id": "egg-003",
+    "name": "Vault Reference Site",
+    "category": "Easter Egg",
+    "district": "Badlands",
+    "landmark": "Southern Badlands, an underground vault-style entrance surrounded by bodies",
+    "description": "A group of LARPers met a violent end near a structure resembling a well-known vault entrance from another post-apocalyptic game series.",
+    "requirements": null,
+    "tags": [
+      "easter egg",
+      "badlands",
+      "reference"
+    ]
+  },
+  {
+    "id": "egg-004",
+    "name": "Edgerunners Memorial",
+    "category": "Easter Egg",
+    "district": "Westbrook",
+    "landmark": "The Columbarium, southern North Oak",
+    "description": "Memorial plaques dedicated to characters from the Cyberpunk: Edgerunners anime.",
+    "requirements": null,
+    "tags": [
+      "easter egg",
+      "westbrook",
+      "north oak",
+      "edgerunners"
+    ]
+  },
+  {
+    "id": "veh-001",
+    "name": "Rayfield Caliburn",
+    "category": "Hidden Vehicle",
+    "district": "Badlands",
+    "landmark": "A hidden cave, found via a large storage container",
+    "description": "One of the fastest vehicles in the game, tucked away with notes hinting at a masked vigilante. Reward tied to completing Panam's full questline.",
+    "requirements": "Complete Panam's full questline first",
+    "tags": [
+      "vehicle",
+      "badlands",
+      "reward"
+    ]
+  },
+  {
+    "id": "egg-005",
+    "name": "Red/Blue Pill Scenes",
+    "category": "Easter Egg",
+    "district": "Multiple",
+    "landmark": "Misty's shop (early game) and a later party scene while playing as Johnny",
+    "description": "Two separate scenes referencing a famous pill-choice moment from a well-known sci-fi film.",
+    "requirements": null,
+    "tags": [
+      "easter egg",
+      "reference"
+    ]
+  },
+  {
+    "id": "egg-006",
+    "name": "Bathroom Seashells",
+    "category": "Easter Egg",
+    "district": "V's Apartment",
+    "landmark": "On the shelf next to the toilet in V's bathroom",
+    "description": "A trio of seashells referencing an old sci-fi comedy's take on future toilet habits.",
+    "requirements": null,
+    "tags": [
+      "easter egg",
+      "apartment"
+    ]
+  },
+  {
+    "id": "egg-007",
+    "name": "Delamain AI Cameo",
+    "category": "Easter Egg",
+    "district": "Multiple",
+    "landmark": "Encountered during the Epistrophy side quest line with Delamain",
+    "description": "One of Delamain's defective taxi personalities is voiced by, and strongly resembles, a sarcastic AI character from a well-known puzzle game series.",
+    "requirements": "Start the Epistrophy quest line",
+    "tags": [
+      "easter egg",
+      "delamain",
+      "quest"
+    ]
+  },
+  {
+    "id": "egg-008",
+    "name": "Smuggler's Cache",
+    "category": "Easter Egg",
+    "district": "Pacifica / Heywood border",
+    "landmark": "Underwater near the bridge connecting Pacifica and Heywood",
+    "description": "An underwater cache with a note referencing smuggler stashes from CD Projekt Red's previous fantasy RPG series.",
+    "requirements": null,
+    "tags": [
+      "easter egg",
+      "pacifica",
+      "heywood"
+    ]
+  },
+  {
+    "id": "companion-001",
+    "name": "Nibbles the Cat",
+    "category": "Companion",
+    "district": "V's Apartment",
+    "landmark": "Dumpster near V's apartment; cat food sourced from Arasaka Industrial Park",
+    "description": "An adoptable cat. Grab the specific cat food from Arasaka Industrial Park first, then find the dumpster near the apartment (from the front door, turn left) and leave the food in the bowl.",
+    "requirements": "Obtain cat food from Arasaka Industrial Park",
+    "tags": [
+      "companion",
+      "apartment",
+      "cat"
+    ]
+  },
+  {
+    "id": "egg-009",
+    "name": "Roach Race Arcade Game",
+    "category": "Easter Egg",
+    "district": "Multiple",
+    "landmark": "Arcade cabinets scattered around Night City and in V's apartments",
+    "description": "A playable arcade mini-game referencing a horse-racing side activity from CD Projekt Red's previous fantasy RPG.",
+    "requirements": null,
+    "tags": [
+      "easter egg",
+      "minigame"
+    ]
+  },
+  {
+    "id": "egg-010",
+    "name": "Secret Phone Numbers",
+    "category": "Easter Egg",
+    "district": "N/A",
+    "landmark": "Dial from V's phone at any time",
+    "description": "A handful of in-game phone numbers play hidden audio easter eggs when called, including musical references.",
+    "requirements": null,
+    "tags": [
+      "easter egg",
+      "phone"
+    ]
+  },
+  {
+    "id": "quest-001",
+    "name": "World's Best Surgeon",
+    "category": "Easter Egg",
+    "district": "City Center",
+    "landmark": "Afterlife bar, via NPC Dennis",
+    "description": "Accepting the Big in Japan side quest from Dennis leads to a character clearly modeled on a well-known sitcom's oddball surgeon.",
+    "requirements": "Accept the Big in Japan side quest",
+    "tags": [
+      "easter egg",
+      "afterlife",
+      "quest"
+    ]
+  },
+  {
+    "id": "egg-011",
+    "name": "John Wick Gun Case",
+    "category": "Easter Egg",
+    "district": "Dogtown",
+    "landmark": "Weapons shop near the fast-travel point inside EBM Petrochem Stadium",
+    "description": "A gun case addressed to John Wick sits at the back of the shop, with Johnny commenting on it.",
+    "requirements": null,
+    "tags": [
+      "easter egg",
+      "dogtown",
+      "reference"
+    ]
+  },
+  {
+    "id": "npc-001",
+    "name": "Brendan the Vending Machine",
+    "category": "Easter Egg",
+    "district": "Watson",
+    "landmark": "Large shipping container in Japantown",
+    "description": "A talkative vending machine NPC who asks you to clear his view before offering a follow-up quest later in the game.",
+    "requirements": null,
+    "tags": [
+      "easter egg",
+      "japantown",
+      "npc"
+    ]
+  },
+  {
+    "id": "egg-012",
+    "name": "CD Projekt Red Founders Cameo",
+    "category": "Easter Egg",
+    "district": "Badlands",
+    "landmark": "Outside a clothing store near Petrochem, inside a derelict van",
+    "description": "Two NPCs modeled on the real-life co-founders of CD Projekt Red sell junk items that reference the studio's other work.",
+    "requirements": null,
+    "tags": [
+      "easter egg",
+      "petrochem",
+      "reference"
+    ]
+  },
+  {
+    "id": "egg-013",
+    "name": "Blood Lake",
+    "category": "Easter Egg",
+    "district": "North Badlands",
+    "landmark": "Rocky Ridge, north-northeast of the Desert Film Set Data Term",
+    "description": "A disturbing lake of blood filled with mannequin bodies.",
+    "requirements": null,
+    "tags": [
+      "easter egg",
+      "badlands",
+      "rocky ridge"
+    ]
+  },
+  {
+    "id": "weap-001",
+    "name": "Rook",
+    "category": "Iconic Weapon",
+    "district": "Dogtown",
+    "landmark": "A cache machine below the main street, under the 'Aesculapius Inc.' sign, in an area of abandoned stores",
+    "description": "A suppressed power pistol with high critical chance that builds with each successive hit.",
+    "requirements": "Cache code: 941229",
+    "tags": [
+      "weapon",
+      "dogtown",
+      "pistol"
+    ]
+  },
+  {
+    "id": "weap-002",
+    "name": "Claw X-MOD2",
+    "category": "Iconic Weapon",
+    "district": "Dogtown",
+    "landmark": "Top of the pyramid-shaped building where Mr. Hands resides",
+    "description": "A throwable melee axe with extra mod slots and improved handling. Requires repeated double-jumping to scale the building.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "dogtown",
+      "melee"
+    ]
+  },
+  {
+    "id": "weap-003",
+    "name": "Genjiroh",
+    "category": "Iconic Weapon",
+    "district": "City Outskirts",
+    "landmark": "Arasaka Estate, main lobby, on a desk through the door across from the stairs",
+    "description": "A smart pistol firing four homing rounds per shot with electrical damage. Reach it by double-jumping over the estate's front wall using the bushes.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "arasaka",
+      "pistol"
+    ]
+  },
+  {
+    "id": "weap-004",
+    "name": "Lizzie",
+    "category": "Iconic Weapon",
+    "district": "Westbrook",
+    "landmark": "Lizzie's Bar basement, private room opposite Judy's braindance studio",
+    "description": "A close-range tech pistol that behaves like a wall-piercing shotgun.",
+    "requirements": "Available after the Automatic Love main job",
+    "tags": [
+      "weapon",
+      "westbrook",
+      "lizzies bar"
+    ]
+  },
+  {
+    "id": "weap-005",
+    "name": "Hawk",
+    "category": "Iconic Weapon",
+    "district": "Dogtown",
+    "landmark": "Leaning against a wall inside your Dogtown hideout on Kress Street",
+    "description": "A power assault rifle that heavily debuffs enemies on hit. Doesn't auto-highlight, so use your scanner.",
+    "requirements": "Complete the Lucretia My Reflection main job, then double back into the hideout instead of following Reed and Myers out",
+    "tags": [
+      "weapon",
+      "dogtown",
+      "phantom liberty"
+    ]
+  },
+  {
+    "id": "weap-006",
+    "name": "Ba Xing Chong",
+    "category": "Iconic Weapon",
+    "district": "City Center",
+    "landmark": "Adam Smasher's hideout aboard the Ebunike",
+    "description": "A smart shotgun that fires homing, explosive rounds with a high dismemberment chance. Crafted from a schematic found in Smasher's vault.",
+    "requirements": "Defeat Adam Smasher and take his access code, only obtainable near the very end of the game",
+    "tags": [
+      "weapon",
+      "endgame",
+      "shotgun"
+    ]
+  },
+  {
+    "id": "weap-007",
+    "name": "Pozhar X-MOD2",
+    "category": "Iconic Weapon",
+    "district": "Dogtown",
+    "landmark": "An under-construction apartment building near Kress Street, during an early-morning house party",
+    "description": "An improved rapid-fire power shotgun with guaranteed extra mod slots. Only accessible in the early hours before roughly 5 AM in-game.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "dogtown",
+      "timed"
+    ]
+  },
+  {
+    "id": "veh-002",
+    "name": "ARCH Nazare 'Itsumade'",
+    "category": "Hidden Vehicle",
+    "district": "Watson",
+    "landmark": "A garage in Northside Watson, next to an All Foods location",
+    "description": "A fast, agile motorcycle sitting in a locked garage.",
+    "requirements": "Garage code: 0214",
+    "tags": [
+      "vehicle",
+      "watson",
+      "motorcycle"
+    ]
+  },
+  {
+    "id": "veh-003",
+    "name": "Quadra Type-66 'Hoon'",
+    "category": "Hidden Vehicle",
+    "district": "Watson",
+    "landmark": "A near-empty warehouse at the north end of Watson",
+    "description": "An armed nomad off-roader, effectively a gun-equipped version of the Type-66 Javelina. Keys are hidden in a nearby rubble pile.",
+    "requirements": "Triggers the 'I'm in Love With My Car' side job; only available from the start of Act 2 onward",
+    "tags": [
+      "vehicle",
+      "watson",
+      "phantom liberty"
+    ]
+  },
+  {
+    "id": "weap-008",
+    "name": "Amnesty",
+    "category": "Iconic Weapon",
+    "district": "Badlands",
+    "landmark": "Won from Cassidy's bottle-shooting challenge near the Aldecaldos camp",
+    "description": "A power revolver rewarded for beating a timed bottle-shooting challenge. No quest marker points to it directly.",
+    "requirements": "Only available past the point of no return, after siding with Panam and the Aldecaldos in 'We Gotta Live Together'",
+    "tags": [
+      "weapon",
+      "revolver",
+      "badlands"
+    ]
+  },
+  {
+    "id": "weap-009",
+    "name": "Apparition",
+    "category": "Iconic Weapon",
+    "district": "Dogtown",
+    "landmark": "Looted from Frank Nostra's corpse, or purchased later from the Black Market dealer",
+    "description": "A tech pistol obtained at the end of the Corpo-exclusive quest 'War Pigs'. Non-Corpo characters can buy it afterward from Dogtown's black market vendor.",
+    "requirements": "Corpo lifepath quest, or purchase after completing it",
+    "tags": [
+      "weapon",
+      "pistol",
+      "dogtown"
+    ]
+  },
+  {
+    "id": "weap-010",
+    "name": "Archangel",
+    "category": "Iconic Weapon",
+    "district": "City Center",
+    "landmark": "Given by Kerry after the reunion concert",
+    "description": "A power revolver Kerry gives you after the reunion concert during 'A Like Supreme', near the end of Kerry and Johnny's questline.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "revolver"
+    ]
+  },
+  {
+    "id": "weap-011",
+    "name": "BFC 9000",
+    "category": "Iconic Weapon",
+    "district": "Santo Domingo",
+    "landmark": "Crash-landed AV on the cliffs near Petrochem Dam, southern edge of Rancho Coronado",
+    "description": "A novelty melee club dropped by an NPC at an AV crash site. The AV doesn't always appear to be present.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "melee",
+      "santo domingo"
+    ]
+  },
+  {
+    "id": "weap-012",
+    "name": "Black Unicorn",
+    "category": "Iconic Weapon",
+    "district": "N/A",
+    "landmark": "Appears directly in your storage",
+    "description": "A katana rewarded for linking or creating a CD Projekt Red account through the game's launcher.",
+    "requirements": "CDPR account link",
+    "tags": [
+      "weapon",
+      "katana",
+      "promo"
+    ]
+  },
+  {
+    "id": "weap-013",
+    "name": "Bloody Maria",
+    "category": "Iconic Weapon",
+    "district": "Santo Domingo",
+    "landmark": "Sent to storage by El Capitan",
+    "description": "A power shotgun rewarded for completing every gig in Santo Domingo.",
+    "requirements": "Complete all Santo Domingo gigs",
+    "tags": [
+      "weapon",
+      "shotgun",
+      "santo domingo"
+    ]
+  },
+  {
+    "id": "weap-014",
+    "name": "Blue Fang",
+    "category": "Iconic Weapon",
+    "district": "Badlands",
+    "landmark": "Melee weapons vendor's trailer, east of the Biotechnica protein farms",
+    "description": "A purchasable iconic knife sold by a Badlands melee vendor.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "knife",
+      "badlands"
+    ]
+  },
+  {
+    "id": "weap-015",
+    "name": "Breakthrough",
+    "category": "Iconic Weapon",
+    "district": "Santo Domingo",
+    "landmark": "NCPD alert behind a house near the power substation, Rancho Coronado",
+    "description": "A tech sniper rifle schematic looted from a miniboss.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "sniper",
+      "santo domingo"
+    ]
+  },
+  {
+    "id": "weap-016",
+    "name": "Butcher's Cleaver",
+    "category": "Iconic Weapon",
+    "district": "Pacifica",
+    "landmark": "Butcher shop counter, Coastview",
+    "description": "A knife grabbed from the counter during the mission 'M'ap Tann P\u00e8len'. The room becomes inaccessible once you leave.",
+    "requirements": "During the mission only",
+    "tags": [
+      "weapon",
+      "knife",
+      "pacifica"
+    ]
+  },
+  {
+    "id": "weap-017",
+    "name": "Buzzsaw",
+    "category": "Iconic Weapon",
+    "district": "Watson",
+    "landmark": "NCPD alert behind a ripperdoc, Northside",
+    "description": "A power SMG schematic looted from a miniboss.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "smg",
+      "watson"
+    ]
+  },
+  {
+    "id": "weap-018",
+    "name": "Byakko",
+    "category": "Iconic Weapon",
+    "district": "Westbrook",
+    "landmark": "Sent to storage by Wakako",
+    "description": "A katana rewarded for completing every gig in Westbrook.",
+    "requirements": "Complete all Westbrook gigs",
+    "tags": [
+      "weapon",
+      "katana",
+      "westbrook"
+    ]
+  },
+  {
+    "id": "weap-019",
+    "name": "Caretaker's Spade",
+    "category": "Iconic Weapon",
+    "district": "City Center",
+    "landmark": "Rainforest meeting room inside Arasaka Tower, off the path to the right",
+    "description": "A hammer found during the final mission, referencing a boss from CD Projekt Red's previous fantasy RPG.",
+    "requirements": "Past the point of no return, final mission only",
+    "tags": [
+      "weapon",
+      "hammer",
+      "easter egg"
+    ]
+  },
+  {
+    "id": "weap-020",
+    "name": "Chaos",
+    "category": "Iconic Weapon",
+    "district": "Watson",
+    "landmark": "Royce's corpse at the All Foods Plant",
+    "description": "A tech pistol looted from Royce during 'The Pickup'. Exact spot depends on how the encounter plays out.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "pistol",
+      "watson"
+    ]
+  },
+  {
+    "id": "weap-021",
+    "name": "Cocktail Stick",
+    "category": "Iconic Weapon",
+    "district": "Westbrook",
+    "landmark": "Vanity near Evelyn's jacket, VIP level of Clouds",
+    "description": "A katana found only during the mission 'Automatic Love'.",
+    "requirements": "During 'Automatic Love' only",
+    "tags": [
+      "weapon",
+      "katana",
+      "westbrook"
+    ]
+  },
+  {
+    "id": "weap-022",
+    "name": "Comrade's Hammer",
+    "category": "Iconic Weapon",
+    "district": "Santo Domingo",
+    "landmark": "NCPD alert near the Drop Point and Red Dirt Bar, Arroyo",
+    "description": "A tech revolver schematic looted from a miniboss.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "revolver",
+      "santo domingo"
+    ]
+  },
+  {
+    "id": "weap-023",
+    "name": "Cottonmouth",
+    "category": "Iconic Weapon",
+    "district": "Westbrook",
+    "landmark": "Table in Fingers' bedroom, Jig-Jig Street",
+    "description": "A melee club found in a room only accessible during Judy's mission 'The Space In Between'.",
+    "requirements": "During that mission only",
+    "tags": [
+      "weapon",
+      "melee",
+      "westbrook"
+    ]
+  },
+  {
+    "id": "weap-024",
+    "name": "Crash",
+    "category": "Iconic Weapon",
+    "district": "Badlands",
+    "landmark": "Trailer park, given directly by River Ward",
+    "description": "A power revolver River gives you at the end of his questline.",
+    "requirements": "Complete River's questline",
+    "tags": [
+      "weapon",
+      "revolver",
+      "badlands"
+    ]
+  },
+  {
+    "id": "weap-025",
+    "name": "Death and Taxes",
+    "category": "Iconic Weapon",
+    "district": "Westbrook",
+    "landmark": "Maiko's office chair at Clouds",
+    "description": "A power pistol accessible only during the mission 'Ex-Factor'.",
+    "requirements": "During 'Ex-Factor' only",
+    "tags": [
+      "weapon",
+      "pistol",
+      "westbrook"
+    ]
+  },
+  {
+    "id": "weap-026",
+    "name": "Divided We Stand",
+    "category": "Iconic Weapon",
+    "district": "Santo Domingo",
+    "landmark": "6th Street gang party near the ripperdoc, Rancho Coronado",
+    "description": "A smart assault rifle obtainable by defeating or out-competing the 6th Street gang.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "rifle",
+      "santo domingo"
+    ]
+  },
+  {
+    "id": "weap-027",
+    "name": "Dying Night",
+    "category": "Iconic Weapon",
+    "district": "Watson",
+    "landmark": "Wilson's weapon shop, Megabuilding H10",
+    "description": "A power pistol purchasable from Wilson once he texts you it's ready, triggering the side job 'The Gun'.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "pistol",
+      "watson"
+    ]
+  },
+  {
+    "id": "weap-028",
+    "name": "Errata",
+    "district": "Watson",
+    "category": "Iconic Weapon",
+    "landmark": "Inside a furnace, Scav hideout from 'Disasterpiece'",
+    "description": "A thermal katana found while rescuing Evelyn Parker with Judy. Area stays accessible afterward.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "katana",
+      "watson"
+    ]
+  },
+  {
+    "id": "weap-029",
+    "name": "Fenrir",
+    "category": "Iconic Weapon",
+    "district": "Watson",
+    "landmark": "Medical table in a Maelstrom hideout near NID: Docks, Northside",
+    "description": "A power SMG found while rescuing a monk's friend near the docks.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "smg",
+      "watson"
+    ]
+  },
+  {
+    "id": "weap-030",
+    "name": "Gold-Plated Baseball Bat",
+    "category": "Iconic Weapon",
+    "district": "City Center",
+    "landmark": "Near a cement-filled pool, during 'Second Conflict'",
+    "description": "A two-handed club set down by an NPC during a Kerry/Johnny questline mission.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "melee"
+    ]
+  },
+  {
+    "id": "weap-031",
+    "name": "Gwynbleidd",
+    "category": "Iconic Weapon",
+    "district": "N/A",
+    "landmark": "Appears directly in your storage",
+    "description": "A sword rewarded for having The Witcher 3: Wild Hunt linked to the same CDPR account.",
+    "requirements": "Linked Witcher 3 save/account",
+    "tags": [
+      "weapon",
+      "sword",
+      "promo"
+    ]
+  },
+  {
+    "id": "weap-032",
+    "name": "Headhunter",
+    "category": "Iconic Weapon",
+    "district": "Pacifica",
+    "landmark": "Melee weapon vendor, West Wind Estate",
+    "description": "A purchasable iconic knife.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "knife",
+      "pacifica"
+    ]
+  },
+  {
+    "id": "weap-033",
+    "name": "Hypercritical",
+    "category": "Iconic Weapon",
+    "district": "Watson",
+    "landmark": "Bathroom counter, Kabuki",
+    "description": "A power precision rifle found while helping Tiny Mike during the gig 'Concrete Cage Trap'.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "rifle",
+      "watson"
+    ]
+  },
+  {
+    "id": "weap-034",
+    "name": "Jinchu-Maru",
+    "category": "Iconic Weapon",
+    "district": "Westbrook",
+    "landmark": "Looted from Oda after 'Play It Safe'",
+    "description": "A katana obtainable whether or not Oda is killed during the encounter.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "katana",
+      "westbrook"
+    ]
+  },
+  {
+    "id": "weap-035",
+    "name": "Kongou",
+    "category": "Iconic Weapon",
+    "district": "City Center",
+    "landmark": "Nightstand in Yorinobu's penthouse bedroom, Konpeki Plaza",
+    "description": "A power pistol found during 'The Heist'.",
+    "requirements": "During 'The Heist' only",
+    "tags": [
+      "weapon",
+      "pistol"
+    ]
+  },
+  {
+    "id": "weap-036",
+    "name": "La Chingona Dorada",
+    "category": "Iconic Weapon",
+    "district": "Heywood",
+    "landmark": "Ofrenda at El Coyote Cojo, The Glen",
+    "description": "A pair of power pistols left in tribute after Jackie's funeral, refunding ammo on headshots when swapping between them.",
+    "requirements": "Attend Jackie's funeral after 'The Heist'",
+    "tags": [
+      "weapon",
+      "pistol",
+      "heywood"
+    ]
+  },
+  {
+    "id": "weap-037",
+    "name": "Lexington x-MOD2",
+    "category": "Iconic Weapon",
+    "district": "Watson",
+    "landmark": "Wilson's weapon shop, Megabuilding H10",
+    "description": "A moddable power pistol rewarded for winning Wilson's shooting competition early in the game.",
+    "requirements": "Win the shooting minigame",
+    "tags": [
+      "weapon",
+      "pistol",
+      "watson"
+    ]
+  },
+  {
+    "id": "weap-038",
+    "name": "Malorian Arms 3516",
+    "category": "Iconic Weapon",
+    "district": "City Center",
+    "landmark": "Taken from Grayson aboard the Ebunike",
+    "description": "A power pistol taken during the mission 'Chippin' In', part of Johnny's questline.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "pistol"
+    ]
+  },
+  {
+    "id": "weap-039",
+    "name": "Moron Labe",
+    "category": "Iconic Weapon",
+    "district": "Pacifica",
+    "landmark": "NCPD alert near a warehouse, western West Wind Estate",
+    "description": "A power assault rifle schematic looted from a miniboss named Anton Kolev.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "rifle",
+      "pacifica"
+    ]
+  },
+  {
+    "id": "weap-040",
+    "name": "Mox",
+    "category": "Iconic Weapon",
+    "district": "Watson",
+    "landmark": "Kitchen counter in Judy's apartment, Charter St",
+    "description": "A power shotgun Judy leaves behind after her questline ends, if you remain on good terms with her.",
+    "requirements": "Complete Judy's questline on good terms",
+    "tags": [
+      "weapon",
+      "shotgun",
+      "watson"
+    ]
+  },
+  {
+    "id": "weap-041",
+    "name": "Nehan",
+    "category": "Iconic Weapon",
+    "district": "City Center",
+    "landmark": "Saburo Arasaka's corpse, Konpeki Plaza",
+    "description": "A knife looted during 'The Heist'.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "knife"
+    ]
+  },
+  {
+    "id": "weap-042",
+    "name": "O'Five",
+    "category": "Iconic Weapon",
+    "district": "Santo Domingo",
+    "landmark": "Won from Buck during 'Beat on the Brat: Arroyo'",
+    "description": "A power sniper rifle wagered and won during a boxing side job.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "sniper",
+      "santo domingo"
+    ]
+  },
+  {
+    "id": "weap-043",
+    "name": "Overwatch",
+    "category": "Iconic Weapon",
+    "district": "Badlands",
+    "landmark": "Given by Panam after 'Riders on the Storm', Ingall's Farm",
+    "description": "A power sniper rifle given the morning after spending the night at the farm.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "sniper",
+      "badlands"
+    ]
+  },
+  {
+    "id": "weap-044",
+    "name": "Plan B",
+    "category": "Iconic Weapon",
+    "district": "Badlands",
+    "landmark": "Dexter DeShawn's corpse at a trash heap",
+    "description": "A power pistol looted where Takemura left Dexter's body.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "pistol",
+      "badlands"
+    ]
+  },
+  {
+    "id": "weap-045",
+    "name": "Prejudice",
+    "category": "Iconic Weapon",
+    "district": "City Center",
+    "landmark": "Mortuary drawer at the Afterlife",
+    "description": "A power assault rifle found during 'For Whom The Bell Tolls'.",
+    "requirements": "Past the point of no return, Rogue/Johnny ending path",
+    "tags": [
+      "weapon",
+      "rifle"
+    ]
+  },
+  {
+    "id": "weap-046",
+    "name": "Pride",
+    "category": "Iconic Weapon",
+    "district": "City Center",
+    "landmark": "Rogue's remains, Arasaka Tower",
+    "description": "A power pistol looted after defeating Adam Smasher during 'Knockin' on Heaven's Door'.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "pistol",
+      "endgame"
+    ]
+  },
+  {
+    "id": "weap-047",
+    "name": "Problem Solver",
+    "category": "Iconic Weapon",
+    "district": "Badlands",
+    "landmark": "Near the main entrance to the Wraith Camp",
+    "description": "A power SMG looted from an ordinary Raffen Shiv enemy during 'Riders on the Storm'.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "smg",
+      "badlands"
+    ]
+  },
+  {
+    "id": "weap-048",
+    "name": "Prototype: Shingen Mark V",
+    "category": "Iconic Weapon",
+    "district": "Santo Domingo",
+    "landmark": "Shipping container outside a warehouse, Arasaka Industrial Park, Arroyo",
+    "description": "A smart SMG found during 'Gimme Danger' with Takemura. Watch for a mine on the floor nearby.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "smg",
+      "santo domingo"
+    ]
+  },
+  {
+    "id": "weap-049",
+    "name": "Psalm 11:6",
+    "category": "Iconic Weapon",
+    "district": "Watson",
+    "landmark": "NCPD alert near the megabuilding and docks, Northside",
+    "description": "A power assault rifle schematic looted from a miniboss.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "rifle",
+      "watson"
+    ]
+  },
+  {
+    "id": "weap-050",
+    "name": "Sasquatch's Hammer",
+    "category": "Iconic Weapon",
+    "district": "Pacifica",
+    "landmark": "Grand Imperial Mall, during the boss fight with Sasquatch",
+    "description": "A hammer obtained during 'I Walk The Line', part of the Voodoo Boys questline.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "hammer",
+      "pacifica"
+    ]
+  },
+  {
+    "id": "weap-051",
+    "name": "Satori",
+    "category": "Iconic Weapon",
+    "district": "City Center",
+    "landmark": "Saburo Arasaka's personal AV atop Konpeki Plaza",
+    "description": "A katana found during 'The Heist', reached the way Saburo enters the room.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "katana"
+    ]
+  },
+  {
+    "id": "weap-052",
+    "name": "Scalpel",
+    "category": "Iconic Weapon",
+    "district": "Watson",
+    "landmark": "A fridge inside a shack near the water, northern edge of Kabuki's shantytown",
+    "description": "A katana rewarded for completing 'Big In Japan', started at the Afterlife once Rogue asks to be paid.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "katana",
+      "watson"
+    ]
+  },
+  {
+    "id": "weap-053",
+    "name": "Scorch",
+    "category": "Iconic Weapon",
+    "district": "N/A",
+    "landmark": "Appears directly in your storage",
+    "description": "A tech pistol rewarded for having Gwent: The Witcher Card Game linked to the same account.",
+    "requirements": "Linked Gwent account",
+    "tags": [
+      "weapon",
+      "pistol",
+      "promo"
+    ]
+  },
+  {
+    "id": "weap-054",
+    "name": "Seraph",
+    "category": "Iconic Weapon",
+    "district": "Heywood",
+    "landmark": "Sent to storage by Padre",
+    "description": "A power pistol rewarded for completing every gig in Heywood.",
+    "requirements": "Complete all Heywood gigs",
+    "tags": [
+      "weapon",
+      "pistol",
+      "heywood"
+    ]
+  },
+  {
+    "id": "weap-055",
+    "name": "Sir John Phallustiff",
+    "category": "Iconic Weapon",
+    "district": "Watson",
+    "landmark": "Meredith Stout's room at the No Tell Motel",
+    "description": "A novelty melee club obtained during 'Venus in Furs', if you follow Meredith's instructions in 'The Pickup'.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "melee",
+      "watson"
+    ]
+  },
+  {
+    "id": "weap-056",
+    "name": "Skippy",
+    "category": "Iconic Weapon",
+    "district": "Heywood",
+    "landmark": "Alley in Vista Del Rey; can later be reset via fixer Regina Jones",
+    "description": "A talking smart pistol tied to its own quest. Using it repeatedly progresses the storyline, and Regina can later reset it into a fixed, unmoddable form.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "pistol",
+      "heywood"
+    ]
+  },
+  {
+    "id": "weap-057",
+    "name": "Sovereign",
+    "category": "Iconic Weapon",
+    "district": "Westbrook",
+    "landmark": "NCPD alert south of Jig-Jig Street, Japantown",
+    "description": "A power double-barrel shotgun looted from a miniboss.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "shotgun",
+      "westbrook"
+    ]
+  },
+  {
+    "id": "weap-058",
+    "name": "Stinger",
+    "category": "Iconic Weapon",
+    "district": "Badlands",
+    "landmark": "Given by Mitch after 'I'll Fly Away'",
+    "description": "A knife rewarded for helping fulfill Scorpion's last wish during Panam's questline.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "knife",
+      "badlands"
+    ]
+  },
+  {
+    "id": "weap-059",
+    "name": "The Headsman",
+    "category": "Iconic Weapon",
+    "district": "Westbrook",
+    "landmark": "Warehouse at the back of an NCPD alert site, North Oak",
+    "description": "A power shotgun looted from a miniboss.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "shotgun",
+      "westbrook"
+    ]
+  },
+  {
+    "id": "weap-060",
+    "name": "Tinker Bell",
+    "category": "Iconic Weapon",
+    "district": "Badlands",
+    "landmark": "Security room at Edgewood Farms",
+    "description": "A melee club found during River Ward's mission 'The Hunt'.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "melee",
+      "badlands"
+    ]
+  },
+  {
+    "id": "weap-061",
+    "name": "Tsumetogi",
+    "category": "Iconic Weapon",
+    "district": "Westbrook",
+    "landmark": "Screening room, Japantown",
+    "description": "A katana looted after the violence concludes during 'Pisces', part of Judy's questline.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "katana",
+      "westbrook"
+    ]
+  },
+  {
+    "id": "weap-062",
+    "name": "Widow Maker",
+    "category": "Iconic Weapon",
+    "district": "Badlands",
+    "landmark": "A tunnel, during 'Ghost Town'",
+    "description": "A tech precision rifle looted from Nash after tracking down his Raffen Shiv crew for Panam.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "rifle",
+      "badlands"
+    ]
+  },
+  {
+    "id": "weap-063",
+    "name": "Yinglong",
+    "category": "Iconic Weapon",
+    "district": "Heywood",
+    "landmark": "NCPD alert near the southwest edge of Wellsprings",
+    "description": "A smart SMG schematic looted from an Animals gang miniboss.",
+    "requirements": null,
+    "tags": [
+      "weapon",
+      "smg",
+      "heywood"
+    ]
+  }
+]
