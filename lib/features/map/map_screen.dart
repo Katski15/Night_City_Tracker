@@ -136,14 +136,42 @@ class _MapScreenState extends State<MapScreen> {
             }),
           ),
           Container(
-            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            padding: const EdgeInsets.fromLTRB(12, 8, 12, 8),
             decoration: const BoxDecoration(
               border: Border(top: BorderSide(color: NCColors.divider)),
             ),
-            child: Text(
-              'Pinch to zoom, drag to pan. Dimmed pins are already found. '
-              'Schematic layout, not to exact in-game scale.',
-              style: Theme.of(context).textTheme.bodySmall,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Wrap(
+                  spacing: 12,
+                  runSpacing: 6,
+                  children: [
+                    for (final c in categories)
+                      Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Container(
+                            width: 10,
+                            height: 10,
+                            decoration: BoxDecoration(
+                              color: categoryColor(c),
+                              shape: BoxShape.circle,
+                            ),
+                          ),
+                          const SizedBox(width: 5),
+                          Text(c.toUpperCase(),
+                              style: Theme.of(context).textTheme.bodySmall),
+                        ],
+                      ),
+                  ],
+                ),
+                const SizedBox(height: 6),
+                Text(
+                  'Pinch to zoom, drag to pan. Dimmed = already found. Schematic layout, not exact in-game scale.',
+                  style: Theme.of(context).textTheme.bodySmall,
+                ),
+              ],
             ),
           ),
         ],
