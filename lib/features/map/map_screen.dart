@@ -18,6 +18,14 @@ class MapScreen extends StatefulWidget {
 class _MapScreenState extends State<MapScreen> {
   String? _categoryFilter;
   final _transformController = TransformationController();
+  double _fitScale = 1;
+  bool _didInitialFit = false;
+
+  void _fitToWidth(double viewportWidth) {
+    final scale = viewportWidth / mapCanvasSize.width;
+    _fitScale = scale;
+    _transformController.value = Matrix4.identity()..scale(scale);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -66,55 +74,66 @@ class _MapScreenState extends State<MapScreen> {
             ),
           ),
           Expanded(
-            child: InteractiveViewer(
-              transformationController: _transformController,
-              minScale: 0.5,
-              maxScale: 4,
-              boundaryMargin: const EdgeInsets.all(40),
-              child: SizedBox(
-                width: mapCanvasSize.width,
-                height: mapCanvasSize.height,
-                child: Stack(
-                  children: [
-                    Positioned.fill(
-                      child: CustomPaint(painter: DistrictMapPainter()),
-                    ),
-                    for (final item in visibleItems)
-                      Builder(builder: (context) {
-                        final zone = zoneFor(item.district);
-                        final pos = pinPosition(item.id, zone.rect);
-                        final found = progress.isFound(item.id);
-                        final color = categoryColor(item.category);
-                        return Positioned(
-                          left: pos.dx - 10,
-                          top: pos.dy - 10,
-                          child: GestureDetector(
-                            onTap: () => Navigator.of(context).push(
-                              MaterialPageRoute(
-                                builder: (_) =>
-                                    LocationDetailScreen(item: item),
+            child: LayoutBuilder(builder: (context, constraints) {
+              if (!_didInitialFit) {
+                _didInitialFit = true;
+                WidgetsBinding.instance.addPostFrameCallback((_) {
+                  if (mounted) {
+                    setState(() => _fitToWidth(constraints.maxWidth));
+                  }
+                });
+              }
+              return InteractiveViewer(
+                transformationController: _transformController,
+                minScale: _fitScale * 0.6,
+                maxScale: _fitScale * 5,
+                boundaryMargin: const EdgeInsets.all(200),
+                constrained: false,
+                child: SizedBox(
+                  width: mapCanvasSize.width,
+                  height: mapCanvasSize.height,
+                  child: Stack(
+                    children: [
+                      Positioned.fill(
+                        child: CustomPaint(painter: DistrictMapPainter()),
+                      ),
+                      for (final item in visibleItems)
+                        Builder(builder: (context) {
+                          final zone = zoneFor(item.district);
+                          final pos = pinPosition(item.id, zone.rect);
+                          final found = progress.isFound(item.id);
+                          final color = categoryColor(item.category);
+                          return Positioned(
+                            left: pos.dx - 11,
+                            top: pos.dy - 11,
+                            child: GestureDetector(
+                              onTap: () => Navigator.of(context).push(
+                                MaterialPageRoute(
+                                  builder: (_) =>
+                                      LocationDetailScreen(item: item),
+                                ),
                               ),
-                            ),
-                            child: Opacity(
-                              opacity: found ? 0.4 : 1,
-                              child: Container(
-                                width: 20,
-                                height: 20,
-                                decoration: BoxDecoration(
-                                  color: color,
-                                  shape: BoxShape.circle,
-                                  border: Border.all(
-                                      color: Colors.black, width: 2),
+                              child: Opacity(
+                                opacity: found ? 0.35 : 1,
+                                child: Container(
+                                  width: 22,
+                                  height: 22,
+                                  decoration: BoxDecoration(
+                                    color: color,
+                                    shape: BoxShape.circle,
+                                    border: Border.all(
+                                        color: Colors.black, width: 2),
+                                  ),
                                 ),
                               ),
                             ),
-                          ),
-                        );
-                      }),
-                  ],
+                          );
+                        }),
+                    ],
+                  ),
                 ),
-              ),
-            ),
+              );
+            }),
           ),
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
@@ -123,7 +142,7 @@ class _MapScreenState extends State<MapScreen> {
             ),
             child: Text(
               'Pinch to zoom, drag to pan. Dimmed pins are already found. '
-              'Map layout is schematic, not to exact in-game scale.',
+              'Schematic layout, not to exact in-game scale.',
               style: Theme.of(context).textTheme.bodySmall,
             ),
           ),
